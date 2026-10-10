@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-replace-this-with-a-real-secret-key-in-production'
 DEBUG = True
 
 # In production, set this to your domain: ALLOWED_HOSTS = ['yourdomain.com']
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', 'tasty-project.onrender.com']
 
 # ---------------------------------------------------------------------------
 # Applications
