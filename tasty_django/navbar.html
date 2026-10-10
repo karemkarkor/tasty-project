@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <nav>
+        <a href="home.html"><img class="logo" src="Images/logo.png" alt="logo" /></a>
+
+        <div class="nav-search">
+            <input id="navSearchInput" type="text" placeholder="Search recipes..." />
+            <button id="navSearchBtn" type="submit">Search</button>
+        </div>
+
+        <div class="header_links">
+            <a href="about.html">About Us</a>
+            <a href="Recipies.html"><button>Available Recipes</button></a>
+            {% if request.user.user_type == 'admin' %}
+            <a href="addrecipe.html"><button>Add Recipe</button></a>
+            {% endif %} {% if request.user.is_authenticated %}
+            <a href="logout"><button>logout</button></a>
+            {% else %}
+            <a href="login.html"><button>login</button></a>
+            {% endif %}
+            <a href="signup.html"><button>sign up</button></a>
+            <a href="Myfavoriteslist.html"><button>My favorites list</button></a>
+            {% if request.user.user_type == 'admin' %}
+            <a href="admin.html"><button>Manage Recipes</button></a>
+            {% endif %}
+        </div>
+        {% if request.user.is_authenticated %}
+        <span >
+       <strong>welcome, {{request.user.username}} </strong>   
+        </span>
+        {% endif %}
+    </nav>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tasty Recipe</title>
+    <link rel="stylesheet" href="Styles/main.css" />
+    <link rel="stylesheet" href="Styles/Myfavoriteslist.css" />
+  </head>
+  <body>
+<!-- <nav>
+  <a href="home.html"><img class="logo" src="Images/logo.png" alt="logo" /></a> -->
+  
+    <!-- Global Navigation Search Bar -->
+    <!-- <div class="nav-search">
+        <input id="navSearchInput" type="text" placeholder="Search recipes..." />
+        <button id="navSearchBtn" type="submit">Search</button>
+    </div>
+
+  <div class="header_links">
+    <a href="about.html">About Us</a>
+    <a href="Recipies.html"><button>Available Recipes</button></a>
+    <a href="addrecipe.html"><button>Add Recipe</button></a>
+    <a href="login.html"><button>login</button></a>
+    <a href="signup.html"><button>sign up</button></a>
+    <a href="Myfavoriteslist.html"><button>My favorites list</button></a>
+    <a href="admin.html"><button>Manage Recipes</button></a>
+  </div>
+</nav> -->
+  {% include 'navbar.html' %}
+    <h1 class="header-for-list">My Favorites List</h1>
+
+    <ul class="my-fav-recipes" id="myFavRecipes">
+    </ul>
+    <script src="JS/functions.js"></script>
+    <script>showFavoritesList()</script>
+    
+  </body>
+</html>

@@ -1,0 +1,171 @@
+/* ================================
+   RECIPE PAGE STYLES
+   This file styles individual recipe pages.
+   It uses the same colors as main.css.
+================================ */
+
+
+/* --- NAVIGATION BAR --- */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border-bottom: 1px solid var(--primary);
+  background-color: var(--base);
+}
+
+.header_links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+/* --- BACK LINK --- */
+
+.back-link {
+  display: inline-block;
+  color: var(--primary);
+  text-decoration: none;
+  margin: 20px 40px;
+  font-size: 0.95rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+
+/* --- HERO IMAGE SECTION --- */
+
+.recipe-hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.recipe-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* darken the image so text on top is readable */
+  filter: brightness(0.4);
+}
+
+/* text that sits on top of the hero image */
+.hero-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px 40px;
+}
+
+.hero-overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-overlay p {
+  font-size: 1rem;
+  color: var(--muted);
+  max-width: 550px;
+}
+
+/* the yellow cook time pill */
+.cook-time-badge {
+  display: inline-block;
+  background-color: var(--secondary);
+  color: var(--base);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+
+/* --- MAIN CONTENT AREA --- */
+
+/* side-by-side layout: ingredients on the left, steps on the right */
+.recipe-content {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.ingredients-section {
+  width: 300px;         /* fixed width for the ingredients column */
+  flex-shrink: 0;       /* don't let it shrink */
+}
+
+.steps-section {
+  flex: 1;              /* take up all remaining space */
+}
+
+/* section headings */
+.ingredients-section h2,
+.steps-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--primary);
+}
+
+
+/* --- INGREDIENT LIST --- */
+
+.ingredient-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* the small yellow dot before each ingredient */
+.ingredient-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--secondary);
+  flex-shrink: 0;
+}
+
+
+/* --- STEPS LIST --- */
+
+.step-item {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+/* the circle with the step number */
+.step-number {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1rem;
+  /* center the number inside the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.step-text {
+  color: var(--muted);
+  line-height: 1.7;
+  padding-top: 6px;
+  font-size: 0.95rem;
+}

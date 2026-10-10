@@ -1,0 +1,58 @@
+.about-section {
+  text-align: center;
+  background-color: var(--base);
+  padding: 15px;
+  margin: 10px;
+}
+
+.about-header h1 {
+  color: red !important;
+  text-decoration: underline;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 45px;
+}
+
+.about-header p {
+  color: green !important;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.team-grid {
+  text-align: center;
+}
+
+.team-card {
+  display: inline-block;
+  background-color: cyan;
+  border: 5px outset purple;
+  margin: 15px;
+  padding: 10px;
+  width: 220px;
+}
+
+.team-card:hover {
+  background-color: magenta;
+}
+
+.team-card img {
+  width: 120px;
+  height: 120px;
+  border: 4px dotted black;
+}
+
+.team-card h3 {
+  color: var(--primary) !important;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.team-card p {
+  color: black !important;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: bold;
+}

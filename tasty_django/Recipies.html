@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Recipes — Tasty Recipe</title>
+    <link rel="stylesheet" href="Styles/main.css" />
+    <link rel="stylesheet" href="Styles/recipies.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <!-- <nav>
+      <a href="home.html"
+        ><img class="logo" src="Images/logo.png" alt="logo"
+      /></a> -->
+      
+      <!-- Global Navigation Search Bar -->
+      <!-- <div class="nav-search">
+        <input id="navSearchInput" type="text" placeholder="Search recipes..." />
+        <button id="navSearchBtn">Search</button>
+      </div>
+
+      <div class="header_links">
+        <a href="about.html">About Us</a>
+        <a href="Recipies.html"><button>Available Recipes</button></a>
+        <a href="addrecipe.html"><button>Add Recipe</button></a>
+        <a href="login.html"><button>login</button></a>
+        <a href="signup.html"><button>sign up</button></a>
+        <a href="Myfavoriteslist.html"><button>My favorites list</button></a>
+        <a href="admin.html"><button>Manage Recipes</button></a>
+      </div>
+    </nav> -->
+    {% include 'navbar.html' %}
+    <div class="wrapper">
+      <section class="recipes">
+        <h1>Available Recipes</h1>
+        <div class="recipes-container"></div>
+        <!-- /recipes-container -->
+        <!-- <p class="no-results" id="noResults">No recipes found for "<span id="searchTerm"></span>". Try something else!</p> -->
+      </section>
+    </div>
+    <script type="module" src="JS/functions.js"></script>
+  </body>
+</html>

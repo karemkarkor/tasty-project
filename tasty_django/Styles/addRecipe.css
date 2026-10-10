@@ -1,0 +1,100 @@
+.recipe-description {
+  border: 5px solid var(--primary);
+  border-radius: 2rem;
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+}
+.Add-Recipe {
+  background-color: var(--primary);
+  width: fit-content;
+  border-radius: 7px;
+  margin: 20px auto;
+  padding: 10px 20px;
+}
+
+input,
+textarea {
+  color: var(--primary);
+  border: 1px solid var(--muted);
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  caret-color: var(--primary);
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-container {
+  background: var(--card);
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.dynamic-list {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.remove-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.remove-btn:hover {
+  background-color: #cc0000;
+}
+.add-btn {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+.add-btn:hover {
+  background-color: #ccc;
+}
+.submit-btn {
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1.1em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.submit-btn:hover {
+  background-color: #729af2;
+}

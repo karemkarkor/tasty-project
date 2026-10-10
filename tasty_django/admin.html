@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Manage Recipes - Tasty Admin</title>
+    <link rel="stylesheet" href="Styles/main.css" />
+    <link rel="stylesheet" href="Styles/admin.css" />
+  </head>
+  <body>
+    <!-- ADMIN NAVIGATION -->
+    <!-- <nav>
+      <a href="home.html"
+        ><img class="logo" src="Images/logo.png" alt="logo"
+      /></a> -->
+      <!-- Global Navigation Search Bar -->
+      <!-- <div class="nav-search">
+        <input id="navSearchInput" type="text" placeholder="Search recipes..." />
+        <button id="navSearchBtn" type="submit">Search</button>
+      </div>
+
+      <div class="header_links">
+        <a href="about.html">About Us</a>
+        <a href="Recipies.html"><button>Available Recipes</button></a>
+        <a href="addrecipe.html"><button>Add Recipe</button></a>
+        <a href="login.html"><button>logout</button></a>
+        <a href="Myfavoriteslist.html"><button>My favorites list</button></a>
+        <a href="signup.html"><button>sign up</button></a>
+        <a href="admin.html"><button>Manage Recipes</button></a>
+      </div>
+    </nav> -->
+    {% include 'navbar.html' %}
+    <div class="wrapper">
+      <h1 class="manage-header">Recipe Management</h1>
+
+      <!-- Stats Cards -->
+      <div class="stats-container">
+        <div class="stat-card">
+          <div class="stat-number" id="Total-recipes"></div>
+          <div>Total Recipes</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="mian-course">4</div>
+          <div>Main Course</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="Appetizers">3</div>
+          <div>Appetizers</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="dessert">3</div>
+          <div>Dessert</div>
+        </div>
+      </div>
+
+      <!-- Recipes Table -->
+      <div class="table-container">
+        <table class="recipes-table">
+          <thead>
+            <tr>
+              <th>Recipe Name</th>
+              <th>Course Type</th>
+              <th>Ingredients</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="JS/functions.js" type="module"></script>
+  </body>
+</html>

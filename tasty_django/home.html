@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Tasty Recipe</title>
+  <link rel="stylesheet" href="Styles/main.css" />
+  <link rel="stylesheet" href="Styles/home.css" />
+</head>
+
+<body>
+  <!-- HEADER-->
+  <!-- <nav>
+    <a href="home.html"><img class="logo" src="Images/logo.png" alt="logo" /></a> -->
+    
+    <!-- Global Navigation Search Bar -->
+    <!-- <div class="nav-search">
+      <input id="navSearchInput" type="text" placeholder="Search recipes..." />
+      <button id="navSearchBtn">Search</button>
+    </div>
+
+    <div class="header_links">
+      <a href="about.html">About Us</a>
+      <a href="Recipies.html"><button>Available Recipes</button></a>
+      <a href="addrecipe.html"><button>Add Recipe</button></a>
+      <a href="login.html"><button>login</button></a>
+      <a href="signup.html"><button>sign up</button></a>
+      <a href="Myfavoriteslist.html"><button>My favorites list</button></a>
+      <a href="admin.html"><button>Manage Recipes</button></a>
+    </div>
+  </nav> -->
+  {% include 'navbar.html' %}
+  <div class="wrapper">
+    <!-- Landing page-->
+    <section class="welcome">
+      <div class="landing_page_left_part">
+        <span> Welcom To <strong>Tasty</strong></span>
+        <h1>The Best Place To Find a Recipes</h1>
+        <p>
+          Tasty is founded by students from the faculty of computer science
+          and AI to show their love for food and help other people share fun
+          recipes
+        </p>
+      </div>
+      <div class="landing_page_image_edit">
+        <img src="Images/main-page-image.jpeg" alt="landing_page_image_edit" />
+      </div>
+  </div>
+  </div>
+  <!--Trending Recipes-->
+  <script type="module" src="JS/functions.js"></script>
+</body>
+
+</html>

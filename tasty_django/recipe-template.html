@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="pageTitle">Recipe — Tasty Recipe</title>
+    <link rel="stylesheet" href="Styles/main.css" />
+    <link rel="stylesheet" href="Styles/recipe.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <!-- <nav>
+      <a href="home.html"><img class="logo" src="Images/logo.png" alt="logo" /></a> -->
+      
+      <!-- Global Navigation Search Bar -->
+      <!-- <div class="nav-search">
+        <input id="navSearchInput" type="text" placeholder="Search recipes..." />
+        <button id="navSearchBtn">Search</button>
+      </div>
+
+      <div class="header_links">
+        <a href="about.html">About Us</a>
+        <a href="Recipies.html"><button>Available Recipes</button></a>
+        <a href="addrecipe.html"><button>Add Recipe</button></a>
+        <a href="login.html"><button>login</button></a>
+        <a href="signup.html"><button>sign up</button></a>
+        <a href="Myfavoriteslist.html"><button>My favorites list</button></a>
+        <a href="admin.html"><button>Manage Recipes</button></a>
+      </div>
+    </nav> -->
+    {% include 'navbar.html' %}
+    <!-- BACK LINK -->
+    <a class="back-link" href="Recipies.html">
+      &#8592; Back to All Recipes
+    </a>
+
+    <!-- HERO -->
+    <div class="recipe-hero">
+      <img id="recipeImage" src="" alt="" />
+      <div class="hero-overlay">
+        <div class="cook-time-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          <span id="cookTime"></span>
+        </div>
+        <h1 id="recipeTitle"></h1>
+        <p id="recipeDescription"></p>
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="recipe-content">
+      <!-- Ingredients -->
+      <aside class="ingredients-section">
+        <h2>Ingredients</h2>
+        <div id="ingredientsList"></div>
+      </aside>
+
+      <!-- Steps -->
+      <main class="steps-section">
+        <h2>Instructions</h2>
+        <div id="stepsList"></div>
+      </main>
+    </div>
+
+    <script type="module" src="JS/recipe-template.js"></script>
+  </body>
+</html>

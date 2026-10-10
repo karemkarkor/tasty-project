@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tasty Recipe</title>
+    <link rel="stylesheet" href="Styles/main.css" />
+    <link rel="stylesheet" href="Styles/addRecipe.css" />
+  </head>
+  <body>
+    <!-- HEADER-->
+    <!-- <nav>
+      <a href="home.html"
+        ><img class="logo" src="Images/logo.png" alt="logo"
+      /></a> -->
+
+      <!-- Global Navigation Search Bar -->
+      <!-- <div class="nav-search">
+        <input id="navSearchInput" type="text" placeholder="Search recipes..." />
+        <button id="navSearchBtn">Search</button>
+      </div>
+
+      <div class="header_links">
+        <a href="about.html">About Us</a>
+        <a href="Recipies.html"><button>Available Recipes</button></a>
+        <a href="addrecipe.html"><button>Add Recipe</button></a>
+        <a href="login.html"><button>login</button></a>
+        <a href="signup.html"><button>sign up</button></a>
+        <a href="Myfavoriteslist.html"><button>My favorites list</button></a>
+        <a href="admin.html"><button>Manage Recipes</button></a>
+      </div>
+    </nav> -->
+    {% include 'navbar.html' %}
+    <div class="wrapper">
+      <h1 class="Add-Recipe">Add Recipe</h1>
+      <div class="form-container">
+        <form id="addRecipeForm">
+          <div class="form-group">
+            <label for="recipeType"> Enter type of food:</label>
+            <input list="type" name="type" id="recipeType" required />
+            <datalist id="type">
+              <option value="Main course"></option>
+              <option value="Appetizers"></option>
+              <option value="Dessert"></option>
+            </datalist>
+          </div>
+          <div class="form-group">
+            <label for="title">Recipe Title</label>
+            <input
+              type="text"
+              id="title"
+              name="title"
+              placeholder="e.g. Classic Margherita Pizza"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="image">Image Path/URL</label>
+            <input
+              type="text"
+              id="image"
+              name="image"
+              placeholder="e.g. images/margherita-pizza.jpeg"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="description">Description</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="3"
+              placeholder="A traditional Neapolitan pizza..."
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="cookTime">Cook Time</label>
+            <input
+              type="text"
+              id="cookTime"
+              name="cookTime"
+              placeholder="e.g. 15 mins"
+              required
+            />
+          </div>
+
+          <div class="dynamic-list">
+            <label>Ingredients</label>
+            <div id="ingredientsContainer">
+              <div class="input-row">
+                <input
+                  type="text"
+                  name="ingredients"
+                  placeholder="e.g. 1 pizza dough"
+                  required
+                />
+                <button
+                  type="button"
+                  class="remove-btn"
+                  onclick="removeRow(this)"
+                >
+                  X
+                </button>
+              </div>
+            </div>
+            <button type="button" class="add-btn" onclick="addIngredient()">
+              + Add Ingredient
+            </button>
+          </div>
+
+          <div class="dynamic-list">
+            <label>Steps</label>
+            <div id="stepsContainer">
+              <div class="input-row">
+                <textarea
+                  name="steps"
+                  rows="2"
+                  placeholder="Step 1..."
+                  required
+                ></textarea>
+                <button
+                  type="button"
+                  class="remove-btn"
+                  onclick="removeRow(this)"
+                >
+                  X
+                </button>
+              </div>
+            </div>
+            <button type="button" class="add-btn" onclick="addStep()">
+              + Add Step
+            </button>
+          </div>
+
+          <button type="submit" class="submit-btn">Save Recipe</button>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="JS/functions.js"></script>
+  </body>
+</html>

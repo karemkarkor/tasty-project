@@ -1,0 +1,57 @@
+.welcome {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 10px 20px 10px 40px;
+  margin: 0px;
+}
+
+.welcome span {
+  display: block;
+  padding: 10px 0;
+}
+
+.welcome h1 {
+  margin-bottom: 20px;
+}
+
+.welcome p {
+  margin-bottom: 10px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.search-section input {
+  flex: 1;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: 2px solid var(--primary);
+  background-color: var(--card);
+  color: var(--text);
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-section input:focus {
+  box-shadow: 0 0 15px rgba(95, 136, 224, 0.4);
+  border-color: var(--secondary);
+}
+
+.search-section button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.landing_page_image_edit img {
+  border-radius: 20px;
+  width: 300px;
+}

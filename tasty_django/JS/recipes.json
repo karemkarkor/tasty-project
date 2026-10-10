@@ -1,0 +1,251 @@
+[
+  {
+    "id": 1,
+    "image": "images/margherita-pizza.jpeg",
+    "title": "Classic Margherita Pizza",
+    "description": "A traditional Neapolitan pizza with fresh tomatoes, mozzarella cheese, and basil.",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "8 oz fresh mozzarella, sliced",
+      "Fresh basil leaves",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "cookTime": "15 mins",
+    "steps": [
+      "Preheat your oven to 475°F (245°C).",
+      "Roll out the pizza dough on a floured surface.",
+      "Spread the tomato sauce evenly over the dough.",
+      "Top with sliced mozzarella cheese.",
+      "Bake for 10-12 minutes until the crust is golden and cheese is bubbly.",
+      "Garnish with fresh basil, a drizzle of olive oil, salt, and pepper before serving."
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Main course",
+    "image": "images/pad-thai.jpeg",
+    "title": "Vegetarian Pad Thai",
+    "description": "A sweet and savory Thai street food classic made with rice noodles and tofu.",
+    "ingredients": [
+      "8 oz flat rice noodles",
+      "1 block firm tofu, cubed",
+      "2 cups bean sprouts",
+      "3 green onions, chopped",
+      "1/4 cup crushed peanuts",
+      "3 tbsp Pad Thai sauce",
+      "2 tbsp vegetable oil",
+      "1 lime, cut into wedges"
+    ],
+    "cookTime": "20 mins",
+    "steps": [
+      "Soak the rice noodles in warm water until soft, then drain.",
+      "Heat oil in a wok or large pan and pan-fry the tofu until golden.",
+      "Add the softened noodles and Pad Thai sauce, tossing constantly.",
+      "Stir in the bean sprouts and green onions, cooking for another 2 minutes.",
+      "Serve hot, topped with crushed peanuts and a squeeze of fresh lime."
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Main course",
+    "image": "images/chicken-fajitas.jpeg",
+    "title": "Sizzling Chicken Fajitas",
+    "description": "Tender strips of seasoned chicken cooked with bell peppers and onions.",
+    "ingredients": [
+      "1 lb chicken breast, sliced",
+      "2 bell peppers, sliced",
+      "1 large onion, sliced",
+      "2 tbsp fajita seasoning",
+      "2 tbsp olive oil",
+      "8 flour tortillas",
+      "Sour cream and salsa for serving"
+    ],
+    "cookTime": "25 mins",
+    "steps": [
+      "Toss the chicken slices with 1 tbsp of olive oil and the fajita seasoning.",
+      "Heat the remaining oil in a large skillet over medium-high heat.",
+      "Add the chicken and cook until browned and cooked through, then remove from pan.",
+      "In the same pan, sauté the onions and bell peppers until tender-crisp.",
+      "Return the chicken to the pan and toss everything together.",
+      "Serve warm with tortillas, sour cream, and salsa."
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Main course",
+    "image": "images/chana-masala.jpeg",
+    "title": "Spicy Chana Masala",
+    "description": "A hearty and flavorful vegan Indian chickpea curry.",
+    "ingredients": [
+      "2 cans (15oz) chickpeas, rinsed",
+      "1 large onion, finely chopped",
+      "2 tomatoes, diced",
+      "3 cloves garlic, minced",
+      "1 tbsp ginger, grated",
+      "2 tbsp garam masala",
+      "1 tsp turmeric",
+      "1 cup water",
+      "Fresh cilantro for garnish"
+    ],
+    "cookTime": "30 mins",
+    "steps": [
+      "Sauté onions, garlic, and ginger in a pot until the onions are translucent.",
+      "Stir in the diced tomatoes, garam masala, and turmeric, cooking until tomatoes break down.",
+      "Add the chickpeas and water, bringing the mixture to a boil.",
+      "Reduce heat and simmer for 15-20 minutes until the sauce thickens.",
+      "Garnish with fresh cilantro and serve with rice or naan bread."
+    ]
+  },
+  {
+    "id": 5,
+    "type": "Appetizers",
+    "image": "images/buttermilk-pancakes.jpeg",
+    "title": "Fluffy Buttermilk Pancakes",
+    "description": "The ultimate weekend breakfast, light, fluffy, and golden brown.",
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "2 tbsp sugar",
+      "2 tsp baking powder",
+      "1/2 tsp baking soda",
+      "2 cups buttermilk",
+      "2 large eggs",
+      "1/4 cup melted butter",
+      "Maple syrup for serving"
+    ],
+    "cookTime": "15 mins",
+    "steps": [
+      "Whisk together the flour, sugar, baking powder, and baking soda in a large bowl.",
+      "In a separate bowl, whisk the buttermilk, eggs, and melted butter.",
+      "Pour the wet ingredients into the dry ingredients and stir until just combined (lumps are okay).",
+      "Heat a lightly oiled griddle over medium heat.",
+      "Pour 1/4 cup of batter for each pancake. Flip when bubbles form on the surface.",
+      "Cook until golden brown and serve warm with maple syrup."
+    ]
+  },
+  {
+    "id": 6,
+    "type": "Appetizers",
+    "image": "images/greek-salad.jpeg",
+    "title": "Fresh Greek Salad",
+    "description": "A crisp, refreshing salad bursting with Mediterranean flavors.",
+    "ingredients": [
+      "3 large tomatoes, chopped",
+      "1 cucumber, sliced",
+      "1/2 red onion, thinly sliced",
+      "1/2 cup Kalamata olives",
+      "1 block feta cheese",
+      "3 tbsp extra virgin olive oil",
+      "1 tbsp red wine vinegar",
+      "1 tsp dried oregano"
+    ],
+    "cookTime": "10 mins",
+    "steps": [
+      "Combine the tomatoes, cucumber, red onion, and olives in a large serving bowl.",
+      "In a small jar, shake together the olive oil, red wine vinegar, and oregano.",
+      "Drizzle the dressing over the vegetables and toss gently.",
+      "Top with a whole block of feta cheese (or crumble it over the top).",
+      "Serve immediately at room temperature."
+    ]
+  },
+  {
+    "id": 7,
+    "type": "Main course",
+    "image": "images/salmon-teriyaki.jpeg",
+    "title": "Baked Salmon Teriyaki",
+    "description": "Flaky salmon fillets glazed in a sweet and sticky homemade teriyaki sauce.",
+    "ingredients": [
+      "4 salmon fillets",
+      "1/4 cup soy sauce",
+      "2 tbsp honey",
+      "1 tbsp rice vinegar",
+      "1 tsp sesame oil",
+      "1 clove garlic, minced",
+      "Sesame seeds and green onions for garnish"
+    ],
+    "cookTime": "20 mins",
+    "steps": [
+      "Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.",
+      "In a small bowl, whisk together soy sauce, honey, rice vinegar, sesame oil, and garlic.",
+      "Place salmon on the baking sheet and brush generously with the teriyaki glaze.",
+      "Bake for 12-15 minutes, or until the salmon flakes easily with a fork.",
+      "Garnish with sesame seeds and chopped green onions before serving."
+    ]
+  },
+  {
+    "id": 8,
+    "type": "dessert",
+    "image": "images/lava-cake.jpeg",
+    "title": "Chocolate Lava Cake",
+    "description": "A decadent, rich chocolate dessert with a gooey, molten center.",
+    "ingredients": [
+      "1/2 cup semi-sweet chocolate chips",
+      "1/2 cup butter",
+      "1 cup powdered sugar",
+      "2 large eggs",
+      "2 egg yolks",
+      "6 tbsp all-purpose flour",
+      "Vanilla ice cream for serving"
+    ],
+    "cookTime": "15 mins",
+    "steps": [
+      "Preheat oven to 425°F (220°C). Butter and flour four ramekins.",
+      "Microwave the chocolate and butter in a bowl until melted and smooth.",
+      "Stir in the powdered sugar, then whisk in the eggs and egg yolks.",
+      "Gently fold in the flour until just combined.",
+      "Divide the batter evenly among the ramekins and bake for 13-14 minutes.",
+      "Let sit for 1 minute, invert onto plates, and serve immediately with vanilla ice cream."
+    ]
+  },
+  {
+    "id": 9,
+    "type": "Main course",
+    "image": "images/beef-stew.jpeg",
+    "title": "Rustic Beef Stew",
+    "description": "A slow-cooked, comforting stew packed with tender beef and root vegetables.",
+    "ingredients": [
+      "2 lbs beef chuck, cubed",
+      "3 carrots, chopped",
+      "3 potatoes, cubed",
+      "1 onion, chopped",
+      "4 cups beef broth",
+      "2 tbsp tomato paste",
+      "1 tsp dried thyme",
+      "2 tbsp olive oil"
+    ],
+    "cookTime": "120 mins",
+    "steps": [
+      "Heat olive oil in a large pot and brown the beef cubes on all sides.",
+      "Add the chopped onion and cook until softened.",
+      "Stir in the tomato paste, thyme, and beef broth, scraping up any browned bits.",
+      "Bring to a boil, then reduce heat, cover, and simmer for 1.5 hours.",
+      "Add the carrots and potatoes, and simmer for another 30 minutes until veggies are tender.",
+      "Season with salt and pepper and serve warm."
+    ]
+  },
+  {
+    "id": 10,
+    "type": "Appetizers",
+    "image": "images/avocado-toast.jpeg",
+    "title": "Gourmet Avocado Toast",
+    "description": "A quick, healthy, and trendy breakfast topped with a perfectly poached egg.",
+    "ingredients": [
+      "2 slices thick sourdough bread",
+      "1 ripe avocado",
+      "2 large eggs",
+      "1 tsp lemon juice",
+      "Red pepper flakes",
+      "Sea salt and black pepper",
+      "1 tbsp white vinegar (for poaching)"
+    ],
+    "cookTime": "10 mins",
+    "steps": [
+      "Toast the sourdough bread slices until golden and crispy.",
+      "Mash the avocado in a bowl with lemon juice, salt, and pepper.",
+      "Bring a small pot of water to a simmer, add white vinegar, and create a gentle whirlpool.",
+      "Crack an egg into the center and poach for 3 minutes. Repeat with the second egg.",
+      "Spread the mashed avocado over the toast, top with a poached egg, and sprinkle with red pepper flakes."
+    ]
+  }
+]
